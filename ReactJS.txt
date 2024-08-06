@@ -1,0 +1,53 @@
+NOde js: environment for javascript -using of node we can execute and run js files which is provide npm and npx
+
+
+=>npm:node package manager-using of npm we can install packages
+
+=>npx:node package executer - using of npx we can execute package
+
+
+================================
+
+LTS: LONG TERM SUPPORT
+
+need to chack version of node js
+
+node -v
+npm -v
+
+============================
+for  react installation:
+
+npm install create-react-app
+
+or
+
+npm install -g create-react-app
+
+===============================
+for project creation(traditional method)
+
+npx create-react-app <projectname>
+
+cd projectname (change directory)
+
+ npm start
+
+
+===================================
+
+create react app(CRA) it increased development and build time whe the project size increased
+
+vite:  next-generation front end tool that focuses on speed and performance
+
+two major parts
+1) A development server
+2) A build command
+
+flow for component calling
+
+index.html====> main.jsx=======>app.jsx
+
+
+
+ 

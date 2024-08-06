@@ -1,0 +1,197 @@
+.backimg {
+    position: relative;
+    height: 590px;
+    overflow: hidden;
+    background: url(../img/pizza3.jpg) center/cover no-repeat;;
+    /* background: url('../img/tamas-pap-XLmhRnV8yuc-unsplash.jpg') center/cover no-repeat;  */
+}
+
+.backimg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* backdrop-filter: blur(2px);  */
+    opacity: 0.1; 
+}
+
+.menubtn {
+    position: relative; 
+    z-index: 1; 
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mybtn {
+  margin-top: 20px;
+  align-items: center;
+  background-image: linear-gradient(135deg, #a9073a 40%, #a9073a);
+  border: 0;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  letter-spacing: .4px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.mybtn:active {
+  outline: 0;
+}
+
+.mybtn:hover {
+  outline: 0;
+}
+
+.mybtn span {
+  transition: all 200ms;
+}
+
+.mybtn:hover span {
+  transform: scale(.9);
+  opacity: .75;
+}
+
+@media screen and (max-width: 991px) {
+  .mybtn {
+    font-size: 15px;
+    height: 50px;
+  }
+
+  .mybtn span {
+    line-height: 50px;
+  }
+}
+
+.cards1 {
+    position: relative;
+    z-index: 1; 
+    display: flex;
+    gap: 70px;
+    margin-top: 30px;
+}
+
+.cardsA {
+    margin-top: 20px;
+    margin-left: 90px;
+    box-shadow: rgba(244, 229, 238, 0.4) -5px 5px, rgba(244, 229, 244, 0.3) -10px 10px, rgba(241, 224, 235, 0.2) -15px 15px, rgba(235, 217, 229, 0.1) -20px 20px, rgba(235, 218, 229, 0.05) -25px 25px;
+    border-radius: 22px;
+    height: 300px;
+    border: 2px solid rgb(233, 225, 225);
+
+    width: 20%;
+    color: aliceblue;
+    background-color: black;
+}
+
+.pcards {
+    margin-top: 50px;
+    margin-left: 70px;
+    position: relative; 
+    z-index: 1;
+    display: flex;
+    gap: 65px;
+}
+
+.pastacards {
+    margin-left: 50px;
+    box-shadow: rgba(244, 229, 238, 0.4) -5px 5px, rgba(244, 229, 244, 0.3) -10px 10px, rgba(241, 224, 235, 0.2) -15px 15px, rgba(235, 217, 229, 0.1) -20px 20px, rgba(235, 218, 229, 0.05) -25px 25px;
+    border: 2px solid rgb(233, 225, 225);
+    border-radius: 22px;
+    height: 300px;
+    width: 22%;
+    color: aliceblue;
+    background-color:   rgb(8, 8, 8);
+}
+
+.cardimg {
+    border-radius: 19px;
+    height: 150px;
+    width: 100%;
+}
+
+.pizzaname {
+  border: none;
+  
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.datashow{
+ /* display: none; */
+    height: auto;
+    border-radius: 10px;
+    padding-left: 10px;
+    width: 25%;
+    margin-top: 45px;
+    background-color: black;
+    color: aliceblue;
+         border: 0.5px solid white; 
+
+}
+.datashow {
+  display: none;
+}
+
+.datashow.show {
+  display: block !important;
+}
+
+.validation{
+    /* border: 2px solid white; */
+    height: 500px;
+    width: 100%;
+    /* background: 100%; */
+    background: url(../img/tamas-pap-XLmhRnV8yuc-unsplash.jpg);
+    /* background: no-repeat; */
+    display: flex;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    justify-content: space-around;
+}
+.form{
+    margin-top: 50PX;
+    padding-top: 30px;
+    border-radius: 25px;
+    width: 35%;
+    border: 1px solid white;
+    background: #000;
+    color: white;
+    height: 280px;
+
+}
+.input1{
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+label{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    display: inline-block;
+    width: 200px;
+}
+.exitpage{
+  background: url(../img/thankyou.jpg);
+  height: 30px;
+  width: 100%;
+}

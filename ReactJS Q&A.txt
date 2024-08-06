@@ -1,0 +1,131 @@
+REACTJS  QUESTION & ANSWERS
+
+1.What is ReactJs?
+=> React (aka React.js or ReactJS) is an open-source front-end  
+JavaScript library that is used for building composable user 
+interfaces, especially for single-page applications.
+
+2.Who Created ReactJs?
+=> React was created by Jordan Walke, a software engineer 
+    working for Facebook.
+
+3.What is reactJs used for?
+    =>  It is used to create User Interfaces (UI) which enhance the 
+speed of programs.It makes use of virtual DOM (JavaScript 
+object), which enhances the app's efficiency.
+
+4.What are the Important Features of ReactJs?
+=> Some Important Features of ReactJs are : 
+ It supports server-side rendering.
+ It will make use of the virtual DOM rather than real DOM (Data Object Model) 
+It uses reusable or composable UI components for developing the view.
+Follows Unidirectional or one-way data flow or data binding.
+	
+5.What are the limitations of React?
+   => React is not a full-blown framework as it is only a library.
+       Coding might become complex as it will make use of inline 
+templating and JSX.
+
+6.How is Real DOM is Different from Virtual DOM?
+    => DOM stands for Document Object Model,it is the structural 
+representation of the HTML Document.
+Real DOM is the actual structure represented in the User 
+Interface while Virtual DOM is the memory representation of 
+the same.
+7.What is NPM in React Js?
+     => Npm stands for Node Package Manager.The npm is a tool 
+which is used to download JavaScript packages from Node 
+Package Manager.
+
+8.What is npx?
+    => npx stands for node package executer - using of npx we can 
+execute packages.
+
+9.What is the Role of Node Js in react Js?
+    => It gives a Environment to work with javascript - using of 
+node we can execute and run js files which provide npm & npx.
+
+10.What are Components in React Js?
+    => Components : Components are independent and reusable 
+block of code(piece of code).
+                It is Combination of HTML, CSS, javascript.
+                Using Components we can build UI easily.
+
+11.How many Types of Components.
+    => There are Two types of Component in ReactJs :
+1. Function Components : easy to understand
+		in Function Component there is direct return jsx.
+2. Class Components :  It is Inherited by Component class
+	Class Components have a render() method which returns jsx.
+
+
+12.What is rfc used for?
+    => rfc stands for React Function Component.
+
+What is rcc used for?
+    => rcc stands for React Class Component.
+
+13.What is JSX?Why is it used?
+    => JSX stands for JavaScript XML. It allows us to write HTML 
+inside JavaScript and place them in the DOM without using 
+functions like appendChild( ) or createElement( ).
+
+14.Why use vite?
+     => it is next-Generation, frontend tool that focuses on speed & 
+performance. By combining React and Vite, we get a fast 
+development environment.
+
+
+15.What is Bable?
+    => Babel is a very famous transpiler that basically allows us to use 
+future JavaScript in today's browsers.
+
+16.What is the use of ReactDOM?
+    => using of ReactDOM we can render Components and elements 
+on Browser.
+
+17.What are Hooks?
+     => Hooks are the Special type of Function Using which we can 
+create changes in Function Components and manage lifecycle of 
+function component.
+
+18.What are different hooks used in React?
+     => There are many types of Hooks are used in React such as : 
+useState()
+useEffect()
+useContext()
+useRef()
+useNavigate()
+useLocation()
+useMemo()
+
+19.What is the State?
+    => State : State is a behaviour of Component It is Mutable 
+property(we can change it).
+
+20.What is useState?
+     => useState is React Hook that allows you to add state to a 
+functional component. It returns an array with two values: the 
+current state and a function to update it.
+
+21.What is useEffect?
+     => The useEffect is one of the most important hooks in react which is 
+used to handle the side effects such as fetching data and 
+updating DOM.
+
+22.Why is useRef used in React?
+    => useRefs is a function that used to access the DOM from 
+components. You only need to attach a ref to the element in 
+your application to provide access to it from anywhere within 
+your component without making use of props.
+
+23.What is useContext?
+    => UseContext : It manages state globally.
+	it Content two property : 
+	createContext() : using of createContext we can create 
+context globally.
+	useContext(contextName) : we can use specific context by 
+any Component.
+	context.provider : which allow specific Component to specific 
+context.
+

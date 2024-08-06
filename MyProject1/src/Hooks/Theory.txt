@@ -1,0 +1,17 @@
+usereducer : hook used for state management
+
+there is many thing similar between usestate and usereducer
+usestate used gor simple loacal state management
+usereducer : complex state management
+usereducer which is accept 2 paramenter:
+
+const [var,function]=usestate(initialValue);
+
+                        vs
+
+const[var,dispatch] = usereducer(reducer,initialValue);
+                            |
+                            v 
+                            reducer(currentState,action){
+                                
+                            }

@@ -1,0 +1,28 @@
+.task-border{background-color: black;
+
+    /* align-items: center; */
+    border: 1px solid black;
+    height: 90px;
+    padding-top: 30px;
+    display: flex;
+    gap: 40px;
+    padding-left: 20px;
+    width: 70%;
+}
+.in{
+    padding-left: 20px;
+    border: 1px solid black;
+    width: 190px;
+    height: 40px;
+}
+.bt{
+    background-color: blue;
+    width: 80px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.t1{
+    border: 1px solid black;
+    width: 72%;
+}

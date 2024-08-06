@@ -1,0 +1,11 @@
+lazy loading :used to handle components loading time
+
+it ignores heavy component and loading require component first 
+
+lazy loading mainly use for component performance improvmeent
+
+which is contain 2 key points
+
+React.Lazy(): which is use to import component
+
+Suspence: it handle code here till another component is loading

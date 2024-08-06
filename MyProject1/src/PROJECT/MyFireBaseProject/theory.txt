@@ -1,0 +1,46 @@
+state management:
+
+local state:local state manage by useState() (hook)
+
+props: when we want to pass or supply state between different component at that time  we use props there.
+
+                                                        APP
+                                                        |
+                                                        V
+         ---------------------------------------------------------------------------------------------------------                                               
+         |                                                                      |
+         V                                                                      V
+         COM1                                                                  COM4
+         |                                                                      |
+         COM2                                                                  COM5
+         |                                                                      |
+         COM3                                                                  COM6
+
+
+
+contextapi : which is applicable only on specific tree part
+
+==============================================================
+flux : introduce by facebook
+Redux  :Redux global state management javascript library 
+
+which is store all state at single location and its  called (store)
+
+
+key points : 
+
+1> store
+2> action
+3> reducers : one kind of functions which manage actions
+4> dispatching /gettting state:
+
+
+latest version of redux is redux toolkit
+
+=> creteSlice
+=>configureSlice
+
+
+npm i redux react-redux
+npm i redux-toolkit
+npm install @reduxjs/toolkit
